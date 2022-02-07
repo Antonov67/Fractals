@@ -18,6 +18,7 @@ public class DrawFractals extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         paint = new Paint();
+        canvas.drawColor(Color.BLACK);
         paint.setColor(Color.GREEN);
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(3);
